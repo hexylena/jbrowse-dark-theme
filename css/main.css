@@ -125,7 +125,7 @@ div.block.height_overflow .height_overflow_message {
 }
 .dijitDialogPaneContent {
 	background: #5d5d5d !important;
-	border: none;
+	border: none !important;
 }
 
 .detail .field {
