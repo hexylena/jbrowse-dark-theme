@@ -170,7 +170,7 @@ div.detail.feature-detail {
 	border: none;
 }
 
-.feature-detail .fastaView textarea {
+.feature-detail .fastaView textarea, .alignment_container {
 	color: black;
 	background: #ccc;
 }
