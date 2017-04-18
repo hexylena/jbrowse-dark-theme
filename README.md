@@ -9,7 +9,6 @@ I've probably over done it a bit with the drop shadows but oh well. Layers are n
 
 
 ![](img/Utvalg_005.png)
-![](img/Utvalg_006.png)
 ![](img/Utvalg_007.png)
 ![](img/Utvalg_008.png)
 
