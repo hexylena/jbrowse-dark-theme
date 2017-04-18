@@ -1,0 +1,107 @@
+table.sequence .highlighted {
+    background: #ff0;
+}
+table.sequence .revcom {
+    color: red;
+}
+table.sequence .base, table.sequence > tr, table.translatedSequence > tr, table.translatedSequence  {
+    height: 14px;
+    line-height: 14px;
+}
+
+table.sequence.big .base {
+    border-right: 1px solid #333;
+}
+
+.translatedSequence {
+    position: relative;
+    border-width: 0px;
+    border-collapse: collapse;
+    overflow: visible;
+}
+.translatedSequence table {
+    z-index: 10;
+}
+
+.translatedSequence.frame0 {
+    background-color: #333;
+}
+
+.translatedSequence.frame1 {
+    background-color: #222;
+}
+
+.translatedSequence.frame2 {
+    background-color: #111;
+}
+.translatedSequence td.aminoAcid {
+    text-align: center;
+    z-index: 2000;
+
+    color: #eee;
+    font-family: Courier New,monospace;
+    font-weight: bold;
+    text-shadow: black 0px 0px 2px;
+}
+.translatedSequence.big, .translatedSequence.big td.aminoAcid {
+    border-right: 1px solid #777;
+}
+
+.translatedSequence.frame2 td.aminoAcid {
+    border-right-color: #979797;
+}
+.translatedSequence.frame1 td.aminoAcid {
+    border-right-color: #6d6d6d;
+}
+.translatedSequence.frame0 td.aminoAcid {
+    border-right-color: #5f5f5f;
+}
+
+.translatedSequence td.aminoAcid_stop {
+    background-color: rgb(255, 255, 153);
+	color: black;
+    text-shadow: white 0px 0px 2px;
+}
+
+.translatedSequence td.aminoAcid_start {
+    background-color: rgb(116, 116, 255);
+}
+
+td.base {
+    text-align: center;
+    z-index: 2000;
+}
+.base {
+    color: black;
+    font-family: Courier New,monospace;
+    font-weight: bold;
+    text-shadow: #c3c3c3 0px 0px 4px;
+}
+
+/* colors for bases must be specified as hex or rgb/hsl strings, no named colors such as 'red' */
+.base_n {
+    background-color: #1b9e77;
+}
+
+.base_a {
+    background-color: #a6cee3;
+}
+.base_c {
+    background-color: #b2df8a;
+}
+.base_t {
+    background-color: #1f78b4;
+}
+.base_g {
+    background-color: #33a02c;
+}
+.base_reference {
+    background-color: #bbb;
+}
+.base_deletion {
+    background-color: #999; 
+}
+
+.sequence.nocolor .base {
+    background-color: #ddd;
+}
