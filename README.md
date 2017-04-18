@@ -8,10 +8,10 @@ It tries to be coherent around a simple philosophy:
 I've probably over done it a bit with the drop shadows but oh well. Layers are nice, they give depth and context!
 
 
-![](Utvalg_005.png)
-![](Utvalg_006.png)
-![](Utvalg_007.png)
-![](Utvalg_008.png)
+![](img/Utvalg_005.png)
+![](img/Utvalg_006.png)
+![](img/Utvalg_007.png)
+![](img/Utvalg_008.png)
 
 ## LICENSE
 
